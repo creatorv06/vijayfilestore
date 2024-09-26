@@ -74,7 +74,7 @@ async def start(bot: Client, cmd: Message):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("Updates Channel", url="https://t.me/universetvmarathi")
+                        InlineKeyboardButton("Updates Channel", url="https://t.me/latest_tv_Show")
                     ],
                     [
                         InlineKeyboardButton("About Bot", callback_data="aboutbot"),
@@ -83,7 +83,7 @@ async def start(bot: Client, cmd: Message):
                     ],
                     [
                         InlineKeyboardButton("Support Group", url="https://t.me/Latestshowtv"),
-                        InlineKeyboardButton("Instagram Page", url="https://www.instagram.com/universe_tv_marathi?igsh=aHNkdm55bzdmNjl6")
+                        InlineKeyboardButton("YouTube Page", url="https://youtube.com/@videocreator2107?si=JsDT4YDKhp8I9Lfr")
                     ]
                 ]
             )
@@ -354,7 +354,7 @@ async def button(bot: Client, cmd: CallbackQuery):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("Updates Channel", url="https://t.me/universetvmarathi")
+                        InlineKeyboardButton("Updates Channel", url="https://t.me/latest_tv_Show")
                     ],
                     [
                         InlineKeyboardButton("About Bot", callback_data="aboutbot"),
@@ -362,8 +362,8 @@ async def button(bot: Client, cmd: CallbackQuery):
                         InlineKeyboardButton("Close 🚪", callback_data="closeMessage")
                     ],
                     [
-                        InlineKeyboardButton("Support Group", url="https://t.me/Latestshowtv"),
-                        InlineKeyboardButton("Instagram Page", url="https://www.instagram.com/universe_tv_marathi?igsh=aHNkdm55bzdmNjl6")
+                        InlineKeyboardButton("Support Group", url="https://t.me/Developerltr_bot"),
+                        InlineKeyboardButton("YouTube Page", url="https://youtube.com/@videocreator2107?si=JsDT4YDKhp8I9Lfr")
                     ]
                 ]
             )
@@ -379,7 +379,7 @@ async def button(bot: Client, cmd: CallbackQuery):
                 user = await bot.get_chat_member(channel_chat_id, cmd.message.chat.id)
                 if user.status == "kicked":
                     await cmd.message.edit(
-                        text="Sorry Sir, You are Banned to use me. Contact my [𝙎𝙪𝙥𝙥𝙤𝙧𝙩 𝙂𝙧𝙤𝙪𝙥](https://t.me/Latestshowtv).",
+                        text="Sorry Sir, You are Banned to use me. Contact my [𝙎𝙪𝙥𝙥𝙤𝙧𝙩 𝙂𝙧𝙤𝙪𝙥](https://t.me/Developerltr_bot).",
                         disable_web_page_preview=True
                     )
                     return
@@ -401,7 +401,7 @@ async def button(bot: Client, cmd: CallbackQuery):
                 return
             except Exception:
                 await cmd.message.edit(
-                    text="Something went Wrong. Contact my [𝙎𝙪𝙥𝙥𝙤𝙧𝙩 𝙂𝙧𝙤𝙪𝙥](https://t.me/Latestshowtv).",
+                    text="Something went Wrong. Contact my [𝙎𝙪𝙥𝙥𝙤𝙧𝙩 𝙂𝙧𝙤𝙪𝙥](https://t.me/Developerltr_bot).",
                     disable_web_page_preview=True
                 )
                 return
@@ -411,8 +411,8 @@ async def button(bot: Client, cmd: CallbackQuery):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("Updates Channel", url="https://t.me/universetvmarathi"),
-                        InlineKeyboardButton("Support Group", url="https://t.me/Latestshowtv")
+                        InlineKeyboardButton("Updates Channel", url="https://t.me/latest_tv_Show"),
+                        InlineKeyboardButton("Support Group", url="https://t.me/Developerltr_bot")
                     ],
                     [
                         InlineKeyboardButton("About Bot", callback_data="aboutbot"),
