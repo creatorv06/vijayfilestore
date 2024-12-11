@@ -6,7 +6,7 @@ class Config(object):
   BOT_TOKEN = os.environ.get("BOT_TOKEN", "6957865617:AAErJV_3eAe6mQVFU8g1kvDRwUm66i3vVkE")
   BOT_USERNAME = os.environ.get("BOT_USERNAME", "latest_tv_show_File_store_bot")
   DB_CHANNEL = int(os.environ.get("DB_CHANNEL", "-1002117171789"))
-  SHORTLINK_URL = os.environ.get('SHORTLINK_URL', "publicearn.in")
+  SHORTLINK_URL = os.environ.get('SHORTLINK_URL', "publicearn.com")
   SHORTLINK_API = os.environ.get('SHORTLINK_API', "9a696c4ea657a9791396336c3d1d84fafe02eb74")
   BOT_OWNER = int(os.environ.get("BOT_OWNER", "1562792211"))
   DATABASE_URL = os.environ.get("DATABASE_URL", "mongodb+srv://Cluster0:Cluster0@cluster0.kailvlv.mongodb.net/?retryWrites=true&w=majority")
