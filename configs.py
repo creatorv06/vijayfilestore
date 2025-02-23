@@ -1,17 +1,17 @@
 import os
 
 class Config(object):
-  API_ID = int(os.environ.get("API_ID", "22787559"))
-  API_HASH = os.environ.get("API_HASH", "e771139d8f3d4ae57f663ad049bbb710")
+  API_ID = int(os.environ.get("API_ID", "21905337"))
+  API_HASH = os.environ.get("API_HASH", "581e1c1b5d8213bf30c19d6893c5b2c8")
   BOT_TOKEN = os.environ.get("BOT_TOKEN", "6957865617:AAErJV_3eAe6mQVFU8g1kvDRwUm66i3vVkE")
-  BOT_USERNAME = os.environ.get("BOT_USERNAME", "latest_tv_show_File_store_bot")
-  DB_CHANNEL = int(os.environ.get("DB_CHANNEL", "-1002117171789"))
+  BOT_USERNAME = os.environ.get("BOT_USERNAME", "GUJJUFILESBOT")
+  DB_CHANNEL = int(os.environ.get("DB_CHANNEL", "-1002262936019"))
   SHORTLINK_URL = os.environ.get('SHORTLINK_URL', "modijiurl.com")
   SHORTLINK_API = os.environ.get('SHORTLINK_API', "fe930e58ec20ee01ad182f2f4320ff9149c44dc3")
-  BOT_OWNER = int(os.environ.get("BOT_OWNER", "1562792211"))
-  DATABASE_URL = os.environ.get("DATABASE_URL", "mongodb+srv://Cluster0:Cluster0@cluster0.kailvlv.mongodb.net/?retryWrites=true&w=majority")
-  UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", "-1001970358116")
-  LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1001881381645"))
+  BOT_OWNER = int(os.environ.get("BOT_OWNER", "7802198323"))
+  DATABASE_URL = os.environ.get("DATABASE_URL", "mongodb+srv://Sweetgujju:V7JuX2hS1hhdFNq0@cluster0.preom.mongodb.net/?retryWrites=true&w=majority")
+  UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", "-1002228988489")
+  LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1002343710976"))
   BANNED_USERS = set(int(x) for x in os.environ.get("BANNED_USERS", "").split())
   FORWARD_AS_COPY = bool(os.environ.get("FORWARD_AS_COPY", True))
   BROADCAST_AS_COPY = bool(os.environ.get("BROADCAST_AS_COPY", True))
@@ -21,22 +21,22 @@ class Config(object):
 This is a Permanent FileStore Bot. 
 Send Me any Media or File. I can Work In Channel too. Add Me to Channel with Edit Permission, I will add save Uploaded File in Channel and Share a Shareable Link. 
 
-╭────[ 🔅FɪʟᴇSᴛᴏʀᴇBᴏᴛ🔅]────⍟
+╭────[ 💡FɪʟᴇSᴛᴏʀᴇBᴏᴛ💡]────⍟
 │
-├🔸 My Name: [FileStore Bot](https://t.me/{BOT_USERNAME})
+├🤖 My Name: [FileStore Bot](https://t.me/{BOT_USERNAME})
 │
-├🔸 Language: [Python 3](https://www.python.org)
+├📝 Language: [Python 3](https://www.python.org)
 │
-├🔹 Library: [Pyrogram](https://docs.pyrogram.org)
+├🧰 Library: [Pyrogram](https://docs.pyrogram.org)
 │
-╰──────[ 😎 ]───────────⍟
+╰──────[ 🥰 ]───────────⍟
 """
   ABOUT_DEV_TEXT = f"""
-🧑🏻‍💻 𝗗𝗲𝘃𝗲𝗹𝗼𝗽𝗲𝗿: [TANMAY](https://t.me/Latestshowtv)
+🧑🏻‍💻 𝗗𝗲𝘃𝗲𝗹𝗼𝗽𝗲𝗿: [👲 LTS](https://t.me/Developerltr_bot)
  
  I am Super noob Please Support My Hard Work.
 
-[Donate Me](https://t.me/Latestshowtv)
+[Donate Me](https://t.me/Developerltr_bot)
 """
   HOME_TEXT = """
 Hello, [{}](tg://user?id={})\n\nThis is a Permanent **FileStore Bot**.
