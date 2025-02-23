@@ -3,7 +3,7 @@ import os
 class Config(object):
   API_ID = int(os.environ.get("API_ID", "21905337"))
   API_HASH = os.environ.get("API_HASH", "581e1c1b5d8213bf30c19d6893c5b2c8")
-  BOT_TOKEN = os.environ.get("BOT_TOKEN", "8102200119:AAGNMGtpiwRhcvjjkFQ5iX79nfM8zucT7eo")
+  BOT_TOKEN = os.environ.get("BOT_TOKEN", "7578515616:AAFII3G5GOxAcAFz6PpWQ7KwxFxIhUD0KuU")
   BOT_USERNAME = os.environ.get("BOT_USERNAME", "GUJJUFILESBOT")
   DB_CHANNEL = int(os.environ.get("DB_CHANNEL", "-1002262936019"))
   SHORTLINK_URL = os.environ.get('SHORTLINK_URL', "modijiurl.com")
